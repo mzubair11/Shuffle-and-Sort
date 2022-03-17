@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.content {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  color: #000000;
+  padding: 15px;
+}
+
+footer {
+  text-align: center;
+  color: #333333;
+  background: #efefef;
+  font-style: italic;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.container {
+  display: flex;
+  background: #efefef;
+  border-top: 5px solid #bfbfbf;
+}
+
+ul {
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  height: 25vh;
+  font-size: 100px;
+  color: #ffffff;
+}
+.button-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.button {
+  width: 80%;
+  height: 40px;
+  margin-bottom: 20px;
+  background-color: #72c3dc;
+  border: 1px solid #2b8ead;
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 0px #2b8ead;
+}
+button:active {
+  box-shadow: none;
+}
+
+[card="1"],
+[card="8"] {
+  background: #6f98a8;
+}
+
+[card="2"],
+[card="4"] {
+  background: #2b8ead;
+}
+
+[card="3"],
+[card="5"],
+[card="9"] {
+  background: #2f454e;
+}
+
+[card="6"],
+[card="7"] {
+  background: #bfbfbf;
+}
